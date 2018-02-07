@@ -1,11 +1,11 @@
 
 1.下载以下3个文件到同一目录下
-    http://maven.aliyun.com/nexus/content/repositories/central/.index/nexus-maven-repository-index.gz
-    http://maven.aliyun.com/nexus/content/repositories/central/.index/nexus-maven-repository-index.properties
-    http://central.maven.org/maven2/org/apache/maven/indexer/indexer-cli/6.0.0/indexer-cli-6.0.0.jar
+    http://repo1.maven.org/maven2/.index/nexus-maven-repository-index.zip
+    http://repo1.maven.org/maven2/.index/nexus-maven-repository-index.properties
+    http://central.maven.org/maven2/org/apache/maven/indexer/indexer-cli/5.1.1/indexer-cli-5.1.1.jar
 
 2.执行命令
-    java -jar indexer-cli-6.0.0.jar -u nexus-maven-repository-index.gz -d indexer
+    java -jar indexer-cli-5.1.1.jar -u nexus-maven-repository-index.gz -d indexer
 
 3.执行完之后在同一目录下会生成indexer文件夹
 
