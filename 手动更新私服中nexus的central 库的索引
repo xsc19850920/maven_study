@@ -13,3 +13,6 @@
     {nexus_home}\sonatype-work\nexus\indexer\central-ctx
 
 5.重启nexus服务
+
+
+6.如果eclipse中的项目有下载失败的jar 执行命令 mvn clean install -U 重新下载所有的jar
